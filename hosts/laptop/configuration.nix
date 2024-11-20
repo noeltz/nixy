@@ -1,7 +1,7 @@
 { config, ... }: {
   imports = [
-    ../../nixos/nvidia.nix # CHANGEME: Remove this line if you don't have an Nvidia GPU
-    ../../nixos/prime.nix # CHANGEME: Remove this line if you don't have an Nvidia GPU
+    # ../../nixos/nvidia.nix # CHANGEME: Uncomment this line if you have an Nvidia GPU
+    # ../../nixos/prime.nix # CHANGEME: Uncomment this line if you have an Nvidia GPU with Prime
 
     ../../nixos/audio.nix
     ../../nixos/auto-upgrade.nix
