@@ -2,21 +2,21 @@
   imports = [ ../../nixos/variables-config.nix ];
 
   config.var = {
-    hostname = "nixy";
-    username = "hadi";
+    hostname = "nixydesk";
+    username = "noeltz";
     configDirectory = "/home/" + config.var.username
       + "/.config/nixos"; # The path of the nixos configuration directory
 
-    keyboardLayout = "fr";
+    keyboardLayout = "de";
 
-    location = "Paris";
-    timeZone = "Europe/Paris";
+    location = "Berlin";
+    timeZone = "Europe/Berlin";
     defaultLocale = "en_US.UTF-8";
-    extraLocale = "fr_FR.UTF-8";
+    extraLocale = "de_DE.UTF-8";
 
     git = {
-      username = "Hadi";
-      email = "112569860+anotherhadi@users.noreply.github.com";
+      username = "noeltz";
+      email = "noeltz@users.noreply.github.com";
     };
 
     autoUpgrade = false;
