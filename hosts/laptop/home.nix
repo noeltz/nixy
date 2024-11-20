@@ -37,7 +37,7 @@
     ../../home/system/clipman
     ../../home/system/tofi
 
-    ./secrets # CHANGEME: You should probably remove this line, this is where I store my secrets
+    # ./secrets # CHANGEME: You should probably remove this line, this is where I store my secrets
   ];
 
   home = {
