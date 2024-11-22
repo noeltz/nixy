@@ -46,8 +46,7 @@
 
   outputs = inputs@{ nixpkgs, ... }: {
     nixosConfigurations = {
-      nixydesk = # CHANGEME: This should match the 'hostname' in your variables.nix file
-        nixpkgs.lib.nixosSystem {
+      nixydesk = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
             {
